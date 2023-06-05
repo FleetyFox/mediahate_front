@@ -1,0 +1,317 @@
+
+body {
+  background-color: #111;
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #00000080;
+  backdrop-filter: blur(22px);
+  z-index: 12;
+  a {
+    font-family: "Rubik Glitch";
+  }
+
+  .navbar-brand {
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: x-large;
+  }
+}
+
+section {
+  padding: 48px;
+
+  .section-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    // font-family: 'Rubik Glitch';
+    color: #fff;
+    // border-bottom: 5px dashed #fff;
+    padding-bottom: 12px;
+    &::after {
+      content: "";
+      width: 320px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 12px;
+      bottom: 0;
+      border-bottom: 2px solid #868686;
+      margin-bottom: 8px;
+
+      @media (max-width: 792px) {
+        width: 70%;
+      }
+    }
+  }
+  .section-content {
+    font-size: 14px;
+  }
+}
+
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 4), rgba(0, 0, 0, 0.4)),
+    url(https://v4.cdnpk.net/videvo_files/video/free/video0464/large_watermarked/_import_6118a38c686ba1.87776016_FPpreview.mp4);
+  background-size: cover;
+
+
+  video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(8px);
+  }
+
+  .hero-title {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Righteous";
+
+    @media (max-width: 768px) {
+      font-size: 50px;
+    }
+  }
+
+  .lead {
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+
+#advantages {
+  background: #0c0c0c;
+
+  .card {
+    width: 100%;
+    border-radius: 0;
+    background: #000;
+    transition: all 0.4s;
+    font-size: 16px;
+    font-weight: 300;
+
+    span {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      // transform: scale(1.2);
+      z-index: 6;
+    }
+  }
+}
+
+#about {
+  padding-left: 0;
+  padding-right: 0;
+  .img-fluid {
+    background: linear-gradient(
+        90deg,
+        rgba(17, 17, 17, 1) 8%,
+        rgba(17, 17, 17, 0.1) 75%
+      ),
+      url("https://images.unsplash.com/photo-1605731414532-6b26976cc153?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+      background-size: cover;
+      
+      
+  }
+
+  ul {
+    list-style: none;
+
+    i {
+      font-size: 36px;
+      color: #d43939;
+    }
+
+    li {
+      padding: 12px;
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+      font-weight: bold;
+      align-items: center;
+
+      &:hover {
+        background: #000;
+      }
+    }
+
+    li:nth-child(1) {
+      padding-left: 30%;
+    }
+    li:nth-child(2) {
+      padding-left: 25%;
+    }
+    li:nth-child(3) {
+      padding-left: 20%;
+    }
+    li:nth-child(4) {
+      padding-left: 15%;
+    }
+    li:nth-child(5) {
+      padding-left: 10%;
+    }
+    li:nth-child(6) {
+      padding-left: 5%;
+    }
+
+    @media (max-width: 768px) {
+      li {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+
+#releases {
+  .row {
+    .col-md-3 {
+      margin-bottom: 16px;
+    }
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    background: #000;
+    height: 100%;
+    max-width: 250px;
+    align-items: center;
+    border-radius: 0;
+    margin: 0 auto;
+    color: #fff;
+    transition: transform 0.5s;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 2;
+      border: 4px solid white;
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .album-title {
+      font-family: "Rubik Glitch";
+      font-size: 18px;
+    }
+
+    .album-artist {
+      font-weight: bold;
+    }
+  }
+}
+
+#artists {
+  img {
+    width: 140px;
+  }
+}
+
+#streaming-platforms {
+  background: #000;
+
+  .streaming-platforms {
+    a {
+      display: flex;
+      align-items: center;
+      img {
+        filter: brightness(30%);
+      }
+      height: 90px;
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+#contacts {
+  .list-group {
+    .list-group-item {
+      background: #111;
+    }
+  }
+
+  .card {
+    background: #111;
+    .form-control {
+      border-radius: 0;
+      margin: 15px 0;
+      padding: 12px;
+      background: #222;
+    }
+  }
+}
+
+.btn-outline-white {
+  border: 5px solid #fff;
+  border-radius: 0;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.5s;
+
+  &.btn-rotate {
+    transform: rotate(-4deg);
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
+
+  &:hover {
+    border: 5px solid #fff;
+    color: #000;
+    background-color: #fff;
+  }
+}
+
+.accent-text {
+  color: #d43939;
+}
+
+.underline-animation {
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+footer{
+  background: #000;
+  margin-bottom: 0;
+  padding-top: 8px;
+  padding-bottom: 28px;
+}
