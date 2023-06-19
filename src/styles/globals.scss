@@ -1,0 +1,13 @@
+:root{
+    --primary-color: #d43939;
+    --text-color: #FFF;
+    --background-color: #1c1c1c;
+
+}
+
+@media (prefers-dark-interface) {
+    :root {
+    --text-color: #1c1c1c;
+    --background-color: #FFF;
+    } 
+  }
