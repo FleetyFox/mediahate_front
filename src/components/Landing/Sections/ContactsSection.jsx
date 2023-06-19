@@ -10,13 +10,13 @@ const ContactsSection = () => {
 
         data-sal-easing="easeOutCubic"
       >
-        Напишите нам
+        Связаться с нами
       </div>
       <div class="section-content">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <ul class="list-group h-100 fs-3 mb-3">
+              <ul class="list-group h-100 fs-5 text-center mb-3">
                 <a
                   class="list-group-item d-block text-decoration-none"
                   href="mailto:mediahate@mail.com"
@@ -40,23 +40,19 @@ const ContactsSection = () => {
                     <input
                       class="form-control"
                       type="text"
-                      placeholder="Ваш email"
+                      placeholder="Email"
+                    />
+                    <input
+                      class="form-control"
+                      type="tel"
+                      placeholder="Телефон"
                     />
                     <input
                       class="form-control"
                       type="text"
-                      placeholder="Ваш телефон"
+                      placeholder="Псевдоним"
                     />
-                    <input
-                      class="form-control"
-                      type="text"
-                      placeholder="Ваш никнейм"
-                    />
-                    <input
-                      class="form-control"
-                      type="text"
-                      placeholder="Введите дополнительную ифнормацию"
-                    />
+                    <textarea className="form-control" placeholder="Дополнительная ифнормация" rows="4"></textarea>
                     <input
                       class="w-100 btn btn-outline-white"
                       type="submit"
