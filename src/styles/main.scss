@@ -331,7 +331,7 @@ footer {
   
   .content {
     display: flex;
-    border-top: 2px solid #888;
+    border-top: 2px solid #272727;
     padding: 22px 0;
     justify-content: space-between;
     align-items: center;
@@ -400,6 +400,9 @@ footer {
 }
 
 
+
+}
+
 .icon{
   filter: invert(.7);
   padding-bottom: 3px;
@@ -407,5 +410,4 @@ footer {
   &:hover{
     filter: invert(.8);
   }
-}
 }

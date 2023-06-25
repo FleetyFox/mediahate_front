@@ -26,9 +26,9 @@ const MainSection = () => {
         >
           союз артистов, нацеленный на политику против «рабства» других артистов
         </p>
-        <button class="btn btn-outline-white btn-rotate btn-lg">
+        <a href="https://vk.com/mediahatemusic" class="btn btn-outline-white btn-rotate btn-lg">
           Выпустить трек
-        </button>
+        </a>
       </div>
     </section>
   );
