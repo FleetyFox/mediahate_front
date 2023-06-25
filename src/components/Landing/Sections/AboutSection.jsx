@@ -7,7 +7,7 @@ const AboutSection = () => {
         <h2
           class="section-title"
           data-sal="slide-right"
-          style={{'--sal-duration' :'.8s'}}
+          style={{ "--sal-duration": ".8s" }}
           data-sal-easing="easeOutCubic"
         >
           Почему мы
