@@ -25,16 +25,13 @@ const Header = () => {
                   </li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-youtube"></i><span class="ps-2 d-md-none">YouTube</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-facebook"></i><span class="ps-2 d-md-none">Facebook</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://vk.com/mediahatemusic"><img class="icon" src="icons/vk.svg" width="20px" alt="" /><span class="ps-2 d-md-none">Вконтакте</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-telegram"></i><span class="ps-2 d-md-none">Telegram</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-spotify"></i><span class="ps-2 d-md-none">Spotify</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-discord"></i><span class="ps-2 d-md-none">Discord</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-instagram"></i><span class="ps-2 d-md-none">Instagram</span></a></li>
                 </ul>
-                <ul class="navbar-nav gap-2">
+                <ul class="navbar-nav gap-2 ps-3">
                   <button class="btn btn-outline-white btn-sm">Выпустить трек</button>
-                  <button class="btn">Вход</button>
                 </ul>
               </div>
             </div>

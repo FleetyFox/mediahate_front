@@ -2,6 +2,19 @@
 body {
   background-color: #111;
   font-family: "Roboto";
+  height: 100%;
+
+}
+
+#__next{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+  flex-grow: 1;
 }
 
 header {
@@ -314,4 +327,33 @@ footer{
   margin-bottom: 0;
   padding-top: 8px;
   padding-bottom: 28px;
+}
+
+
+// Forms
+
+#formHolder{
+
+  display: flex !important;
+  width: 100% !important;
+
+  border-radius: 12px;
+  margin: 12px 0 !important;
+
+
+
+}
+
+.pyrusExternalWebForm{
+  background-color: #000 !important;
+}
+
+
+.icon{
+  filter: invert(.7);
+  padding-bottom: 3px;
+
+  &:hover{
+    filter: invert(.8);
+  }
 }
