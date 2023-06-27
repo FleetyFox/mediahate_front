@@ -223,9 +223,11 @@ section {
     .album-title {
       font-family: "Rubik Glitch";
       font-size: 18px;
+      white-space: nowrap;
     }
-
+    
     .album-artist {
+      white-space: nowrap;
       font-weight: bold;
     }
   }
@@ -432,5 +434,13 @@ footer {
 
   &:hover{
     filter: invert(.8);
+  }
+}
+
+#vk_groups{
+  iframe{
+    border-radius: 4px;
+    height: 400px;
+    overflow: hidden;
   }
 }

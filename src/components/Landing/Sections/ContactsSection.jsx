@@ -1,3 +1,4 @@
+import VKWidget from "@/components/VKWidget";
 import React from "react";
 
 const ContactsSection = () => {
@@ -38,10 +39,11 @@ const ContactsSection = () => {
                   <div class="fw-bold">VK</div>
                   <div class="text-white">https://vk.com/mediapanicx</div>
                 </a>
+              <VKWidget/>
               </ul>
             </div>
             <div class="col-md-6">
-              <div class="card h-100">
+              <div class="card ">
                 <div class="card-body">
                   <h4 className="card-title">Правообладателям</h4>
                   <form action="#">
