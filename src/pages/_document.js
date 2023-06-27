@@ -11,9 +11,9 @@ export default function Document() {
         <title>MEDIAHATE - союз артистов, лейбл</title>
         <meta name="description" content="Mediahate" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="MEDIAHATE"/>
+        <meta property="og:title" content="MEDIAHATE - союз артистов, лейбл"/>
         <meta property="og:description" content="MEDIAHATE - союз артистов, лейбл"/>
-        <meta property="og:url" content="https://mediahate.fleetyfox.online/"/>
+        <meta property="og:url" content="https://mediahate.com/"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>

@@ -16,7 +16,7 @@ const AdvantagesSection = () => {
           <div class="d-flex flex-md-row flex-column justify-content-center fs-5 fw-bold">
             <div class="card underline-animation">
               <div class="card-body d-flex flex-column text-center">
-                <span class="accent-text">1000+</span> загруженных треков
+                <span class="accent-text">1500+</span> загруженных треков
               </div>
             </div>
             <div class="card underline-animation">
@@ -26,7 +26,7 @@ const AdvantagesSection = () => {
             </div>
             <div class="card underline-animation">
               <div class="card-body d-flex flex-column text-center">
-                <span class="accent-text">700+</span> доставленных релизов
+                <span class="accent-text">1100+</span> доставленных релизов
               </div>
             </div>
           </div>

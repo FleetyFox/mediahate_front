@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MainSection = () => {
@@ -26,9 +27,10 @@ const MainSection = () => {
         >
           союз артистов, нацеленный на политику против «рабства» других артистов
         </p>
-        <a href="https://vk.com/mediahatemusic" class="btn btn-outline-white btn-rotate btn-lg">
+
+        <Link href="/sendform"  class="btn btn-outline-white btn-rotate btn-lg">
           Выпустить трек
-        </a>
+        </Link>
       </div>
     </section>
   );

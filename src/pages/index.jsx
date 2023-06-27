@@ -24,6 +24,8 @@ export default function Home() {
   return (
     <>
     <Header/>
+    <main>
+
     <MainSection/>
     <AdvantagesSection/>
     <AboutSection/>
@@ -31,6 +33,7 @@ export default function Home() {
     <PlatformsSection/>
     <ArtistsSection/>
     <ContactsSection/>
+    </main>
     <Footer/>
     </>
   )
