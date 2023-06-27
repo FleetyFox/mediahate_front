@@ -1,11 +1,11 @@
-import Header from "@/components/Landing/Header";
 import PyrusForm from "../../components/PyrusForm";
 import Footer from "@/components/Landing/Footer";
+import HeaderNoLanding from "@/components/HeaderNoLanding";
 
 export default function SendFormPage() {
   return (
     <>
-      <Header />
+      <HeaderNoLanding />
       <main>
         <div className="container">
           <PyrusForm />
