@@ -29,7 +29,7 @@ const VKWidget = () => {
 
     resizeTimeoutRef.current = setTimeout(() => {
       initVKWidget();
-    }, 200); // Задержка в 1 секунду (1000 миллисекунд)
+    }, 200);
   };
 
   const initVKWidget = () => {
@@ -37,9 +37,8 @@ const VKWidget = () => {
     const divWidth =
       document.getElementById('vk_groups').parentElement.clientWidth;
 
-    console.log('hello');
     if (window.VK && !window.VK.Widgets) {
-      window.VK.init({apiId: 'CvK0bDBWPFNzHCKSVCDT'}); // Замените YOUR_API_ID на ваш ID приложения VK
+      window.VK.init({apiId: 'CvK0bDBWPFNzHCKSVCDT'});
     }
 
     if (window.VK && window.VK.Widgets) {
