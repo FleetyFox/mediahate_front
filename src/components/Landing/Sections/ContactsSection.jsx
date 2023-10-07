@@ -27,10 +27,10 @@ const ContactsSection = () => {
                 </a>
                 <a
                   class="list-group-item d-block text-decoration-none"
-                  href="https://t.me/mediahatelabel"
+                  href="https://t.me/mediahatemusic"
                 >
                   <div class="fw-bold">TELEGRAM</div>
-                  <div class="text-white">https://t.me/mediahatelabel</div>
+                  <div class="text-white">https://t.me/mediahatemusic</div>
                 </a>
                 <a
                   class="list-group-item d-block text-decoration-none"
